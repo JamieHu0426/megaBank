@@ -1,0 +1,692 @@
+{
+    "systalk_nlu_version": "1.0",
+    "name": "[銀]兆豐NLU",
+    "language": "zh-tw",
+    "intents": [
+        {
+            "name": "真人服務",
+            "is_builtin": false,
+            "is_enabled": true
+        },
+        {
+            "name": "結束對話",
+            "is_builtin": false,
+            "is_enabled": true
+        }
+    ],
+    "entities": [
+        {
+            "name": "sys.世界國家城市",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ff88c2"
+        },
+        {
+            "name": "sys.中文姓氏",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#9d9dcd"
+        },
+        {
+            "name": "sys.人名",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#33ccff"
+        },
+        {
+            "name": "sys.台灣行政區",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#97fc82"
+        },
+        {
+            "name": "sys.地址",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#33ffaa"
+        },
+        {
+            "name": "sys.幣別&金額",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffd306"
+        },
+        {
+            "name": "sys.幣別名稱",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffd306"
+        },
+        {
+            "name": "sys.手機號碼",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffff33"
+        },
+        {
+            "name": "sys.數字",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#cba6c3"
+        },
+        {
+            "name": "sys.時間",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffab19"
+        },
+        {
+            "name": "sys.時間期間",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#edaa7e"
+        },
+        {
+            "name": "sys.機構",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#e38eff"
+        },
+        {
+            "name": "sys.身分證字號",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#eca1ca"
+        },
+        {
+            "name": "sys.金額",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffdd55"
+        },
+        {
+            "name": "sys.電子郵件",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#77fefe"
+        },
+        {
+            "name": "sys.順序指代",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ffb3ff"
+        },
+        {
+            "name": "sys.顏色",
+            "is_builtin": true,
+            "is_enabled": false,
+            "phrases": "",
+            "swappable": true,
+            "force_match": false,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#ff8e8f"
+        },
+        {
+            "name": "服務判斷",
+            "is_builtin": false,
+            "is_enabled": true,
+            "phrases": "銀行\n信用卡\n客訴,投訴,主管,抱怨",
+            "swappable": true,
+            "force_match": true,
+            "case_sensitive": false,
+            "regexes": "",
+            "regex_case_sensitive": false,
+            "regex_force_match": false,
+            "color": "#88dba3"
+        }
+    ],
+    "utterances": [
+        {
+            "sentence": "轉 接 真 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "真 人 轉 接",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 找 客 服 人 員",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "有 沒 有 真 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "幫 我 轉 專 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 轉 專 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "有 沒 有 客 服 人 員",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 找 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "客 服 人 員 在 哪 裡",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 接 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "找 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "好 ， 轉 真 人 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 真 人 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "幫 我 轉 真 人 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 真 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 真 人 文 字 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 客 服",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 找 人 通 話",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "專 人 服 務",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "找 專 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "有 人 可 以 服 務 我 嗎",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "想 知 道 線 上 客 服 的 時 間",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "還 是 看 不 懂 請 直 接 轉 客 服 好 嗎",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 懂 你 的 意 思 可 以 轉 客 服 嗎",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "可 以 詢 問 客 服 嗎",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "要 線 上 真 人 線 上",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "真 人 線 上 諮 詢",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 转 人 工",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 需 要 真 人 來 處 理",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "需 要 轉 接 真 人 處 理",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "需 要 客 服 才 能 處 理",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "結 束 對 話",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "對 話 結 束",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "停 止 服 務",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "結 束 服 務",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 用 服 務 了",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "沒 有 ， 不 需 要 其 他 服 務",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 需 要 服 務 了",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "結 果 對 話",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "關 閉 對 話",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "對 話 取 消",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "再 見",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 用 你 的 服 務 了",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "先 這 樣 ， 拜 拜 囉",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 想 講 了",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 想 休 息 不 說 了",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 講 了 先 這 樣 吧",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 需 要 服 務",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 沒 有 問 題 了 掰 掰",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "再 見 再 見",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "那 就 再 見 囉",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "先 這 樣 再 見",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 想 說 了 再 見",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "再 見 就 這 樣 吧",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "謝 謝 再 見",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "再 見 謝 謝 你",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "掰 掰",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "我 要 客 訴",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": [
+                {
+                    "text": "客 訴",
+                    "start": 2,
+                    "end": 4,
+                    "entity": "服務判斷"
+                }
+            ]
+        },
+        {
+            "sentence": "哪 裡 可 以 申 訴",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        }
+    ],
+    "synonyms": [
+        {
+            "name": "20210826",
+            "number_of_lines": 2,
+            "case_sensitive": false,
+            "synonyms": "客服,真人,專人,主管\n客訴,申訴,抱怨"
+        }
+    ],
+    "algo_type": "SYSTALK",
+    "bert_version": "0.0.1"
+}

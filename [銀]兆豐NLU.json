@@ -567,28 +567,7 @@
             "annotations_prediction": []
         },
         {
-            "sentence": "不 想 講 了",
-            "intent": "結束對話",
-            "intent_prediction": "結束對話",
-            "annotations": [],
-            "annotations_prediction": []
-        },
-        {
             "sentence": "我 想 休 息 不 說 了",
-            "intent": "結束對話",
-            "intent_prediction": "結束對話",
-            "annotations": [],
-            "annotations_prediction": []
-        },
-        {
-            "sentence": "不 講 了 先 這 樣 吧",
-            "intent": "結束對話",
-            "intent_prediction": "結束對話",
-            "annotations": [],
-            "annotations_prediction": []
-        },
-        {
-            "sentence": "不 需 要 服 務",
             "intent": "結束對話",
             "intent_prediction": "結束對話",
             "annotations": [],
@@ -673,6 +652,69 @@
         },
         {
             "sentence": "哪 裡 可 以 申 訴",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 用 幫 我 轉 真 人",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 用 了 幫 我 轉 客 服 人 員",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 人 員 服 務",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "先 這 樣 吧",
+            "intent": "結束對話",
+            "intent_prediction": "結束對話",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 接 服 務 人 員",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "轉 接",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 需 要 你 幫 我 轉 接",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "講 不 通 轉 真 人 來",
+            "intent": "真人服務",
+            "intent_prediction": "真人服務",
+            "annotations": [],
+            "annotations_prediction": []
+        },
+        {
+            "sentence": "不 想 跟 機 器 人 說 話 找 真 人 來",
             "intent": "真人服務",
             "intent_prediction": "真人服務",
             "annotations": [],

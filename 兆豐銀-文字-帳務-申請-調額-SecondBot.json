@@ -1,0 +1,1427 @@
+[
+    {
+        "id": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "type": "tab",
+        "label": "Flow 1",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "ca7db1737ea9d19120e1.4723e7cebfc8",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "798b9d0f5558ce90fbb9.ec41498d08b9",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "d57bdc1e40ab3eb448c0.42b3835aa27c",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "ad7ca9b78b2b6c54dbc4.e48458a24b44",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "ab06186c7f93e8ec5a08.c0d415bfd0f3",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "e9ada2db6dd85e588169.386025ccb7ee",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "bdce52b9f49657a0d34e.6f65795c9818",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "c261e8801dc2128d6f47.4f54fb544d77",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "8fc17e433ef3aa47239a.bdc50c5e8060",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "332092db756ad10770d1.3d14566810ed",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "2863599d6ad03bb127af.0c07ab4334b3",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "692999b5630125a15234.a30d56b1fb44",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "86d0f6c9a993582fc81c.a395e08d7eaf",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "b3166ba559c8ea417ed1.43c66851a061",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "f7389c6393d4603eb931.bcb50919e7d7",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "3312693c6e216cd2e631.0938acb73d99",
+        "type": "chat-server",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "wires": []
+    },
+    {
+        "id": "23ad60ff7612ad5ee718.a6a0a1989a5f",
+        "type": "http in",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 153.3333282470703,
+        "y": 71,
+        "wires": [
+            [
+                "04b860358ad0c78a4147.c6532b168476",
+                "c21cb55345c40ac7ebdc.1cb8c7ebe65a"
+            ]
+        ],
+        "url": "/service",
+        "method": "post",
+        "swaggerDoc": ""
+    },
+    {
+        "id": "404f83506dcc0dba9ef4.add0e972e414",
+        "type": "router",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 813.3333282470703,
+        "y": 71,
+        "wires": [
+            [
+                "ec65615f5cb0e224fda3.10e08e03379c"
+            ]
+        ],
+        "sessionprop": "systalk._session_id",
+        "dryrun": "msg._dry_run",
+        "timeout": "1800"
+    },
+    {
+        "id": "ca06e3b035150d9226fd.21c47661080a",
+        "type": "http response",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1213.3333282470703,
+        "y": 91,
+        "wires": []
+    },
+    {
+        "id": "f14dd4c690eb036aca18.a67b1da7f292",
+        "type": "enter",
+        "name": "Setup",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 153.3333282470703,
+        "y": 191,
+        "wires": [
+            [
+                "0a39d30524d0209e71d4.19af9dcfda30"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_start_setup"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "e08e1faee76a1b6eb730.7a7bef40922f",
+        "type": "function",
+        "name": "Setup Data",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1493.3333282470703,
+        "y": 184,
+        "wires": [
+            [
+                "a4941fae7bdb330a9d9e.aecbabc02dac"
+            ]
+        ],
+        "func": "const ReqMsgCtrl = msg.systalk.utils.ReqMsgCtrl;\nconst LangCtrl = msg.systalk.utils.LangCtrl;\nconst ReqChannels = msg.systalk.utils.ReqChannels;\n\n\n// normalize request message\nReqMsgCtrl.normalize(msg.reqMsg);\n// 進線 channel\nmsg.systalk.channel = node._.clone(msg.reqMsg.channel || ReqChannels.text);\n// 使用者語系\nmsg.systalk.lang = LangCtrl.normalize(msg.reqMsg.lang || msg.systalk.lang || 'zh-tw');\n\n\n\n\n// 判斷是否清空紀錄 session 資訊\nif (msg.systalk.sessionSalt) {\n    if (msg.systalk.sessionSalt !== msg.reqMsg.sessionSalt) {\n        msg.systalk.needInfo = undefined;\n        msg.systalk.config = undefined;\n        msg.systalk.pendingBot = undefined;\n    }\n}\nmsg.systalk.sessionSalt = msg.reqMsg.sessionSalt;\nmsg.systalk.fromBot = msg.config.botTypes.current;\n\nif (!msg.systalk.needInfo) {\n    msg.systalk.needInfo = {\n        flags: {},\n        toAgent: null,\n        lastPayload: null //前次的payload\n    };\n}\n\n// setup config values\nmsg.systalk.config = msg.reqMsg.config || msg.systalk.config || null;\nif (!msg.systalk.config) {\n    msg.systalk.config = {};\n}\n\nlet inputIntent = node._.isString(msg.reqMsg.intent) ?\n    msg.reqMsg.intent :\n    !!msg.reqMsg.intent ? msg.reqMsg.intent.item : null;\nmsg.botType = inputIntent || msg.systalk.pendingBot || msg.config.botTypes.current;\nmsg.messages = [];\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "996d2cf62bbb2bf7e724.96552b4b72a5",
+        "type": "debug",
+        "name": "Before Output",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1218.3333282470703,
+        "y": 37,
+        "wires": []
+    },
+    {
+        "id": "04b860358ad0c78a4147.c6532b168476",
+        "type": "function",
+        "name": "Set from Input",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 583.3333282470703,
+        "y": 74,
+        "wires": [
+            [
+                "404f83506dcc0dba9ef4.add0e972e414"
+            ]
+        ],
+        "func": "msg.reqMsg = msg.payload;\nmsg.systalk._session_id = msg.reqMsg.sessionId;\nmsg._start_setup = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "0a39d30524d0209e71d4.19af9dcfda30",
+        "type": "function",
+        "name": "Shared Utils",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 383.3333282470703,
+        "y": 191,
+        "wires": [
+            [
+                "f57cb3e6b833cc3bdcfc.34caadff5e03"
+            ]
+        ],
+        "func": "/**\n * This file define utils for Demo Kit and template.\n * Could be copied into a function node or import as function library (current not working).\n * \n * Define in `msg.systalk.utils`\n * 定義在 `function node`，會使用到 `Lodash`（定義在 `node._`）\n */\n\n/**\n * Request message types\n * 總機與各 bot 的 Request 訊息類別\n */\nclass ReqMsgTypes {\n    constructor() {\n        this._text = 1;\n        this._textType = 'text';\n        this._speech = 2;\n        this._speechType = 'speech';\n        this._fromOnlineService = 3;\n        this._fromOnlineServiceType = 'from_online_service';\n        this._fromAuthorization = 4;\n        this._fromAuthorizationType = 'from_authorization';\n        this._fromLocation = 5;\n        this._fromLocationType = 'from_location';\n        this._signal = 6;\n        this._signalType = 'signal';\n        this._config = 7;\n        this._configType = 'config';\n        this._grade = 8;\n        this._gradeType = 'grade';\n        this._initSession = 9;\n        this._initSessionType = 'init_session';\n    }\n    get text() { return this._text; }\n    get textType() { return this._textType }\n    get speech() { return this._speech; }\n    get speechType() { return this._speechType; }\n    get fromOnlineService() { return this._fromOnlineService; }\n    get fromOnlineServiceType() { return this._fromOnlineServiceType; }\n    get fromAuthorization() { return this._fromAuthorization; }\n    get fromAuthorizationType() { return this._fromAuthorizationType; }\n    get fromLocation() { return this._fromLocation; }\n    get fromLocationType() { return this._fromLocationType; }\n    get signal() { return this._signal; }\n    get signalType() { return this._signalType; }\n    get config() { return this._config; }\n    get configType() { return this._configType; }\n    get grade() { return this._grade; }\n    get gradeType() { return this._gradeType; }\n    get initSession() { return this._initSession; }\n    get initSessionType() { return this._initSessionType; }\n\n    isText(val) {\n        return val === this.text || val === this.textType;\n    }\n    isSpeech(val) {\n        return val === this.speech || val === this.speechType;\n    }\n    isFromOnlineService(val) {\n        return val === this.fromOnlineService || val === this.fromOnlineServiceType;\n    }\n    isFromAuthorization(val) {\n        return val === this.fromAuthorization || val === this.fromAuthorizationType;\n    }\n    isFromLocation(val) {\n        return val === this.fromLocation || val === this.fromLocationType;\n    }\n    isSignal(val) {\n        return val === this.signal || val === this.signalType;\n    }\n    isConfig(val) {\n        return val === this.config || val === this.configType;\n    }\n    isGrade(val) {\n        return val === this.grade || val === this.gradeType;\n    }\n    isInitSession(val) {\n        return val === this.initSession || val === this.initSessionType;\n    }\n}\n\nconst reqMsgTypes = new ReqMsgTypes();\n\n/**\n* Reply message types\n*/\nclass ReplyMsgTypes {\n    constructor() {\n        this._text = 1;\n        this._textType = 'text';\n        this._speech = 2;\n        this._speechType = 'speech';\n        this._image = 3;\n        this._imageType = 'image';\n        this._sticker = 4;\n        this._stickerType = 'sticker';\n        this._link = 5;\n        this._linkType = 'link';\n        this._dataList = 6;\n        this._dataListType = 'data_list';\n        this._yesOrNo = 7;\n        this._yesOrNoType = 'yes_or_no';\n        this._toCustomerService = 8;\n        this._toCustomerServiceType = 'to_customer_service';\n        this._toOnlineService = 9;\n        this._toOnlineServiceType = 'to_online_service';\n        this._toAuthorization = 10;\n        this._toAuthorizationType = 'to_authorization';\n        this._toLocation = 11;\n        this._toLocationType = 'to_location';\n        this._redirectBot = 12;\n        this._redirectBotType = 'redirect_bot';\n        this._options = 13;\n        this._optionsType = 'options';\n        this._status = 14;\n        this._statusType = 'status';\n        this._action = 15;\n        this._actionType = 'action';\n        this._generalInfo = 16;\n        this._generalInfoType = 'info_general';\n    }\n\n    get text() { return this._text; }\n    get textType() { return this._textType; }\n    get speech() { return this._speech; }\n    get speechType() { return this._speechType; }\n    get image() { return this._image; }\n    get imageType() { return this._imageType; }\n    get sticker() { return this._sticker; }\n    get stickerType() { return this._stickerType; }\n    get link() { return this._link; }\n    get linkType() { return this._linkType; }\n    get dataList() { return this._dataList; }\n    get dataListType() { return this._dataListType; }\n    get yesOrNo() { return this._yesOrNo; }\n    get yesOrNoType() { return this._yesOrNoType; }\n    get toCustomerService() { return this._toCustomerService; }\n    get toCustomerServiceType() { return this._toCustomerServiceType; }\n    get toOnlineService() { return this._toOnlineService; }\n    get toOnlineServiceType() { return this._toOnlineServiceType; }\n    get toAuthorization() { return this._toAuthorization; }\n    get toAuthorizationType() { return this._toAuthorizationType; }\n    get toLocation() { return this._toLocation; }\n    get toLocationType() { return this._toLocationType; }\n    get redirectBot() { return this._redirectBot; }\n    get redirectBotType() { return this._redirectBotType; }\n    get options() { return this._options; }\n    get optionsType() { return this._optionsType; }\n    get status() { return this._status; }\n    get statusType() { return this._statusType; }\n    get action() { return this._action; }\n    get actionType() { return this._actionType; }\n    get generalInfo() { return this._generalInfo; }\n    get generalInfoType() { return this._generalInfoType; }\n\n    /**\n     * Check type value is 'text' type or not\n     */\n    isText(val) {\n        return val === this.text || val === this.textType;\n    }\n    isSpeech(val) {\n        return val === this.speech || val === this.speechType;\n    }\n    isImage(val) {\n        return val === this.image || val === this.imageType;\n    }\n    isSticker(val) {\n        return val === this.sticker || val === this.stickerType;\n    }\n    isLink(val) {\n        return val === this.link || val === this.linkType;\n    }\n    isDataList(val) {\n        return val === this.dataList || val === this.dataListType;\n    }\n    isYesOrNo(val) {\n        return val === this.yesOrNo || val === this.yesOrNoType;\n    }\n    isToCustomerService(val) {\n        return val === this.toCustomerService || val === this.toCustomerServiceType;\n    }\n    isToOnlineService(val) {\n        return val === this.toOnlineService || val === this.toOnlineServiceType;\n    }\n    isToAuthorization(val) {\n        return val === this.toAuthorization || val === this.toAuthorizationType;\n    }\n    isToLocation(val) {\n        return val === this.toLocation || val === this.toLocationType;\n    }\n    isRedirectBot(val) {\n        return val === this.redirectBot || val === this.redirectBotType;\n    }\n    isOptions(val) {\n        return val === this.options || val === this.optionsType;\n    }\n    isStatus(val) {\n        return val === this.status || val === this.statusType;\n    }\n    isAction(val) {\n        return val === this.action || val === this.actionType;\n    }\n    isGeneralInfo(val) {\n        return val === this.generalInfo || val === this.generalInfoType;\n    }\n}\n\nconst replyMsgTypes = new ReplyMsgTypes();\n\n/**\n* Signals\n*/\nclass ReqSignals {\n    constructor() {\n        this._start = 1;\n        this._startSignal = 'start';\n        this._continue = 2;\n        this._continueSignal = 'continue';\n        this._end = 3;\n        this._endSignal = 'end';\n        this._idle = 4;\n        this._idleSignal = 'idle';\n        this._quit = 5;\n        this._quitSignal = 'quit';\n        this._passedFromCustomerService = 6;\n        this._passedFromCustomerServiceSignal = 'passed_from_customer_service';\n    }\n\n    get start() { return this._start; }\n    get startSignal() { return this._startSignal; }\n    get continue() { return this._continue; }\n    get continueSignal() { return this._continueSignal; }\n    get end() { return this._end; }\n    get endSignal() { return this._endSignal; }\n    get idle() { return this._idle; }\n    get idleSignal() { return this._idleSignal; }\n    get quit() { return this._quit; }\n    get quitSignal() { return this._quitSignal; }\n    get passedFromCustomerService() { return this._passedFromCustomerService; }\n    get passedFromCustomerServiceSignal() { return this._passedFromCustomerServiceSignal; }\n\n\n    isStart(val) {\n        return val === this.start || (typeof val === 'string' && val.toLowerCase() === this.startSignal);\n    }\n    isEnd(val) {\n        return val === this.end || (typeof val === 'string' && val.toLowerCase() === this.endSignal);\n    }\n    isContinue(val) {\n        return val === this.continue || (typeof val === 'string' && val.toLowerCase() === this.continueSignal);\n    }\n    isIdle(val) {\n        return val === this.idle || (typeof val === 'string' && val.toLowerCase() === this.idleSignal);\n    }\n    isQuit(val) {\n        return val === this.quit || (typeof val === 'string' && val.toLowerCase() === this.quitSignal);\n    }\n    isPassedFromCustomerService(val) {\n        return val === this.passedFromCustomerService || (typeof val === 'string' && val.toLowerCase() === this.passedFromCustomerServiceSignal);\n    }\n}\n\nconst reqSignals = new ReqSignals();\n\n/**\n * Controller for request channels\n */\nclass ReqChannels {\n    constructor() {\n    }\n\n    /**\n     * Channel object with default name `text`\n     *\n     * @readonly\n     * @memberof ReqChannels\n     */\n    get text() {\n        return new Channel('文字', { isText: true, isSpeech: false });\n    }\n\n    /**\n     * Channel object of default name `speech`\n     *\n     * @readonly\n     * @memberof ReqChannels\n     */\n    get speech() {\n        return new Channel('語音', { isText: false, isSpeech: true });\n    }\n\n    /**\n     * If the chanel supports message type of `text`\n     * @param {Channel} val Channel object\n     */\n    isText(val) {\n        return !node._.isNil(val) && val.isText;\n    }\n\n    /**\n     * If the channel supports message type of `speech`\n     * @param {Channel} val Channel object\n     */\n    isSpeech(val) {\n        return !node._.isNil(val) && val.isSpeech;\n    }\n}\n\nconst reqChannels = new ReqChannels();\n\n/**\n * Channel object\n * @property {string} name\n * @property {boolean} isText if this channel supports text messages\n * @property {boolean} isSpeech if this channel \n */\nclass Channel {\n    constructor(nameOrChannel, configs) {\n        if (!node._.isNil(nameOrChannel) &&\n            node._.isString(nameOrChannel.name) &&\n            node._.isBoolean(nameOrChannel.isText) && node._.isBoolean(nameOrChannel.isSpeech)) {\n            this.name = nameOrChannel.name;\n            this.isText = nameOrChannel.isText;\n            this.isSpeech = nameOrChannel.isSpeech;\n        }\n        if (node._.isString(nameOrChannel)) {\n            this.name = nameOrChannel;\n        }\n        if (!node._.isNil(configs)) {\n            this.isText = configs.isText || false;\n            this.isSpeech = configs.isSpeech || false;\n        }\n    }\n\n    valueOf() {\n        return this.name;\n    }\n\n    toString() {\n        return this.name;\n    }\n}\n\nclass ReplyActionTypes {\n    constructor() {\n        this._grading = 'grading';\n        this._end = 'end';\n        this._renew = 'renew';\n    }\n\n    get grading() { return this._grading; }\n    get end() { return this._end; }\n    get renew() { return this._renew; }\n\n    isGrading(val) {\n        return val === this.grading;\n    }\n    isEnd(val) {\n        return val === this.end;\n    }\n    isRenew(val) {\n        return val === this._renew;\n    }\n}\n\nconst replyActionTypes = new ReplyActionTypes();\n\n/**\n* Reply message factory\n* recommand to use `create()`\n*/\nclass ReplyMsgFactory {\n    createText(text) {\n        if (node._.isString(text)) {\n            return {\n                type: replyMsgTypes.text,\n                text: text\n            };\n        }\n        return null;\n    }\n    createTextType(text) {\n        if (node._.isString(text)) {\n            return {\n                type: replyMsgTypes.textType,\n                text: text\n            };\n        }\n        return null;\n    }\n    createSpeech(speech) {\n        if (node._.isString(speech)) {\n            return {\n                type: replyMsgTypes.speech,\n                speech: speech\n            };\n        }\n        return null;\n    }\n    createSpeechType(speech) {\n        if (node._.isString(speech)) {\n            return {\n                type: replyMsgTypes.speechType,\n                speech: speech\n            };\n        }\n        return null;\n    }\n    createImage(title, alt, imgUrl) {\n        return {\n            type: replyMsgTypes.image,\n            title: title,\n            alt: alt,\n            imgUrl: imgUrl\n        };\n    }\n    /**\n     * 建立圖片類型訊息\n     * @param {*} params { title, alt, imgUrl }\n     */\n    createImageType(params) {\n        let msg = {\n            type: replyMsgTypes.imageType\n        };\n        if (params) {\n            if (params.title) {\n                msg.title = params.title;\n            }\n            if (params.alt) {\n                msg.alt = params.alt;\n            }\n            if (params.imgUrl) {\n                msg.imgUrl = params.imgUrl;\n            }\n        }\n        return msg;\n    }\n    createSticker(alt, stickerUrl) {\n        return {\n            type: replyMsgTypes.sticker,\n            alt: alt,\n            imgUrl: stickerUrl\n        };\n    }\n    /**\n     * 建立貼圖類型訊息\n     * @param {*} params { alt, imgUrl }\n     */\n    createStickerType(params) {\n        let msg = {\n            type: replyMsgTypes.stickerType\n        };\n        if (params) {\n            if (params.alt) {\n                msg.alt = params.alt;\n            }\n            if (params.imgUrl) {\n                msg.imgUrl = params.imgUrl;\n            }\n        }\n        return msg;\n    }\n    createLink(title, url, data) {\n        let reply = {\n            type: replyMsgTypes.link,\n            text: title, // TODO: deprecated\n            title: title,\n            url: url\n        };\n        reply = Object.assign(reply, data);\n        return reply;\n    }\n    /**\n     * 建立連結類型訊息\n     * @param {*} params { title, url }\n     */\n    createLinkType(params) {\n        let reply = {\n            type: replyMsgTypes.linkType\n        };\n        if (params) {\n            if (params.title) {\n                reply.title = params.title;\n            }\n            if (params.url) {\n                reply.url = params.url;\n            }\n        }\n        return reply;\n    }\n    createDataList(data, title) {\n        return {\n            type: replyMsgTypes.dataList,\n            title: title,\n            data: Array.isArray(data) ? data : [data]\n        };\n    }\n    /**\n     * 建立 data list 類型訊息\n     * @param {*} params { data, title, botType, intent }\n     */\n    createDataListType(params) {\n        let reply = {\n            type: replyMsgTypes.dataListType\n        };\n        if (params) {\n            if (Array.isArray(params.data) && params.data.length) {\n                reply.data = node._.cloneDeep(params.data);\n            }\n            if (params.title) {\n                reply.title = params.title;\n            }\n            if (params.botType) {\n                reply.botType = params.botType;\n            }\n            if (params.intent) {\n                reply.intent = params.intent;\n            }\n        }\n        return reply;\n    }\n    createYesOrNo(yesText, noText) {\n        return {\n            type: replyMsgTypes.yesOrNo,\n            yes: yesText,\n            no: noText\n        };\n    }\n    /**\n     * 建立 yes/no 選項訊息\n     * @param {*} params { yes, no }\n     */\n    createYesOrNoType(params) {\n        let reply = {\n            type: replyMsgTypes.yesOrNoType\n        };\n        if (params) {\n            if (params.yes) {\n                reply.yes = params.yes;\n            }\n            if (params.no) {\n                reply.no = params.no;\n            }\n        }\n        return reply;\n    }\n    createToCustomerService(options) {\n        let reply = {\n            type: replyMsgTypes.toCustomerService\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToCustomerServiceType(options) {\n        let reply = {\n            type: replyMsgTypes.toCustomerServiceType\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToOnlineService(options) {\n        let reply = {\n            type: replyMsgTypes.toOnlineService\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToOnlineServiceType(options) {\n        let reply = {\n            type: replyMsgTypes.toOnlineServiceType\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToAuthorization(options) {\n        let reply = {\n            type: replyMsgTypes.toAuthorization,\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToAuthorizationType(options) {\n        let reply = {\n            type: replyMsgTypes.toAuthorizationType\n        };\n        if (node._.isObject(options)) {\n            for (let prop in options) {\n                reply[prop] = options[prop];\n            }\n        }\n        return reply;\n    }\n    createToLocation(botType, entities, location) {\n        return {\n            type: replyMsgTypes.toLocation,\n            botType: botType,\n            location: location,\n            entities: entities\n        };\n    }\n    /**\n     * 建立需取得定位訊息\n     * @param {*} params { botType, intent }\n     */\n    createToLocationType(params) {\n        let reply = {\n            type: replyMsgTypes.toLocationType\n        };\n        if (params) {\n            if (params.botType) {\n                reply.botType = params.botType;\n            }\n            if (params.intent) {\n                reply.intent = params.intent;\n            }\n        }\n        return reply;\n    }\n    createRedirectBot(opts) {\n        return {\n            type: replyMsgTypes.redirectBot,\n            botType: opts && opts.botType,\n            intent: opts && opts.intent,\n            entities: opts && opts.entities,\n            data: opts && opts.data\n        };\n    }\n    /**\n     * 建立要求總機重新導向 second bot 類型訊息\n     * @param {*} params { botType, intent, entities, data }\n     */\n    createRedirectBotType(params) {\n        let reply = {\n            type: replyMsgTypes.redirectBotType\n        };\n        if (params) {\n            if (params.botType) {\n                reply.botType = params.botType;\n            }\n            if (params.intent) {\n                reply.intent = params.intent;\n            }\n            if (params.entities) {\n                reply.entities = node._.cloneDeep(params.entities);\n            }\n            if (params.data) {\n                reply.data = node._.cloneDeep(params.data);\n            }\n        }\n        return reply;\n    }\n    /**\n     * 建立 options 訊息物件\n     * data 陣列中僅允許包含 text, speech, image, sticker, link\n     * @param opts <Option_Item>[] Including properties : title, payload, url\n     * @param title string Title\n     */\n    createOptions(opts, title) {\n        const ctrl = new ReplyMsgCtrl();\n        let options = Array.isArray(opts) ? [].concat(opts) : [opts];\n        options = options.filter(opt => {\n            return !!opt && (opt.title && (opt.payload || opt.url));\n        });\n\n        let reply = {\n            type: replyMsgTypes.options\n        };\n        if (options) {\n            reply.data = options;\n        }\n        if (title) {\n            reply.title = title;\n        }\n        return reply;\n    }\n    /**\n     * 建立選項類型訊息\n     * @param {*} params { opts, title }\n     */\n    createOptionsType(params) {\n        let reply = {\n            type: replyMsgTypes.optionsType\n        };\n\n        if (params) {\n            let options = Array.isArray(params.opts) ? [].concat(opts) : [opts];\n            options = options.filter(opt => {\n                return !!opt && (opt.title && (opt.payload || opt.url));\n            });\n\n\n            if (options) {\n                reply.data = node._.cloneDeep(options);\n            }\n            if (title) {\n                reply.title = title;\n            }\n        }\n        return reply;\n    }\n    createStatus(code, msg) {\n        return {\n            type: replyMsgTypes.status,\n            status: {\n                code: code,\n                message: msg\n            }\n        };\n    }\n    /**\n     * 建立狀態訊息\n     * @param {*} params { status: { code, message } }\n     */\n    createStatusType(params) {\n        let reply = {\n            type: replyMsgTypes.statusType\n        };\n        if (params) {\n            if (params.status) {\n                reply.status = node._.cloneDeep(params.status);\n            }\n        }\n        return reply;\n    }\n    createAction(actionType) {\n        return {\n            type: replyMsgTypes.action,\n            action: actionType\n        };\n    }\n    /**\n     * 建立動作訊息\n     * @param {*} params { action }\n     */\n    createActionType(params) {\n        let reply = {\n            type: replyMsgTypes.actionType\n        };\n        if (params) {\n            if (params.action) {\n                reply.action = params.action;\n            }\n        }\n        return reply;\n    }\n    create(data) {\n        const reply = {};\n        if (data.type) { reply.type = data.type; }\n        if (data.text) { reply.text = data.text; }\n        if (data.speech) { reply.speech = data.speech; }\n        if (data.title) { reply.title = data.title; }\n        if (data.alt) { reply.alt = data.alt; }\n        if (data.imgUrl) { reply.imgUrl = data.imgUrl; }\n        if (data.url) { reply.url = data.url; }\n        if (data.data) { reply.data = node._.cloneDeep(data.data); }\n        if (data.yes) { reply.yes = data.yes; }\n        if (data.no) { reply.no = data.no; }\n        if (data.userId) { reply.userId = data.userId; }\n        if (data.botType) { reply.botType = data.botType; }\n        if (data.intent) { reply.intent = data.intent; }\n        if (data.entities) { reply.entities = node._.cloneDeep(data.entities); }\n        if (data.location) { reply.location = node._.cloneDeep(data.location); }\n        if (data.action) { reply.action = data.action; }\n        if (data.status) { reply.status = node._.cloneDeep(data.status); }\n        if (data.postbackReq) { reply.postbackReq = node._.cloneDeep(data.postbackReq); }\n        return reply;\n    }\n}\n\nclass ReqMsgCtrl {\n    isText(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isText(msg.message.type) : reqMsgTypes.isText(msg.type);\n    }\n\n    isSpeech(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isSpeech(msg.message.type) : reqMsgTypes.isSpeech(msg.type);\n    }\n\n    isFromOnlineService(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isFromOnlineService(msg.message.type) : reqMsgTypes.isFromOnlineService(msg.type);\n    }\n\n    isFromAuthorization(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isFromAuthorization(msg.message.type) : reqMsgTypes.isFromAuthorization(msg.type);\n    }\n\n    isFromLocation(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isFromLocation(msg.message.type) : reqMsgTypes.isFromLocation(msg.type);\n    }\n\n    isSignal(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isSignal(msg.message.type) : reqMsgTypes.isSignal(msg.type);\n    }\n\n    isStartSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isStart(msg.message.signal);\n    }\n\n    isContinueSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isContinue(msg.message.signal);\n    }\n\n    isEndSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isEnd(msg.message.signal);\n    }\n\n    isIdleSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isIdle(msg.message.signal);\n    }\n\n    isQuitSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isQuit(msg.message.signal);\n    }\n\n    isPassedFromCustomerServiceSignal(msg) {\n        return this.isSignal(msg) && !!msg.message.signal && reqSignals.isPassedFromCustomerService(msg.message.signal);\n    }\n\n    isConfig(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isConfig(msg.message.type) : reqMsgTypes.isConfig(msg.type);\n    }\n\n    isGrade(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isGrade(msg.message.type) : reqMsgTypes.isGrade(msg.type);\n    }\n\n    isInitSession(msg) {\n        return !!msg && msg.message ? reqMsgTypes.isInitSession(msg.message.type) : reqMsgTypes.isInitSession(msg.type);\n    }\n\n    /**\n     * Normalize message's channel\n     * By default, channel would be a text channel\n     * @param {any} reqMsg request message object\n     */\n    normalize(reqMsg) {\n        if (!reqMsg || !reqMsg.message) {\n            return;\n        }\n        let channelObj = this._normalizeChannel(reqMsg.channel) || reqChannels.text;\n        if (!node._.isNil(channelObj)) {\n            reqMsg.channel = node._.clone(channelObj);\n        }\n    }\n\n\n    /**\n     * Normalize channel object\n     * @param {any} channel \n     */\n    _normalizeChannel(channel) {\n        let channelObj = null; // set the default channel\n        if (node._.isNumber(channel)) {\n            // If the channel is number, and > 0\n            // it would be deprecated channel type, convert it.\n            if (channel > 0) {\n                channelObj = new Channel(channel.toString(), {\n                    isText: channel & 1 === 1,\n                    isSpeech: channel & 2 === 2\n                });\n            }\n            else {\n                channelObj = new Channel(channel.toString(), {\n                    isText: true,\n                    isSpeech: false\n                });\n            }\n        }\n        else if (node._.isString(channel)) {\n            channelObj = new Channel(channel, {\n                isText: true,\n                isSpeech: false\n            });\n        }\n        else if (!node._.isNil(channel) &&\n            node._.isString(channel.name)) {\n            channelObj = new Channel(channel.name, {\n                isText: node._.isBoolean(channel.isText) ? channel.isText : !!channel.isText,\n                isSpeech: node._.isBoolean(channel.isSpeech) ? channel.isSpeech : !!channel.isSpeech\n            });\n        }\n        return channelObj;\n    }\n}\n\nclass ReplyMsgCtrl {\n    isText(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isText(msg.type);\n    }\n\n    isSpeech(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isSpeech(msg.type);\n    }\n\n    isImage(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isImage(msg.type);\n    }\n\n    isSticker(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isSticker(msg.type);\n    }\n\n    isLink(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isLink(msg.type);\n    }\n\n    isDataList(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isDataList(msg.type);\n    }\n\n    isYesOrNo(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isYesOrNo(msg.type);\n    }\n\n    isToCustomerService(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isToCustomerService(msg.type);\n    }\n\n    isToOnlineService(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isToOnlineService(msg.type);\n    }\n\n    isToAuthorization(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isToAuthorization(msg.type);\n    }\n\n    isToLocation(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isToLocation(msg.type);\n    }\n\n    isRedirectBot(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isRedirectBot(msg.type);\n    }\n\n    isOptions(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isOptions(msg.type);\n    }\n\n    isStatus(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isStatus(msg.type);\n    }\n\n    isAction(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isAction(msg.type);\n    }\n\n    isGeneralInfo(msg) {\n        return !!msg && !!msg.type && replyMsgTypes.isGeneralInfo(msg.type);\n    }\n\n    isValid(msg) {\n        return this.isText(msg) ||\n            this.isSpeech(msg) ||\n            this.isImage(msg) ||\n            this.isSticker(msg) ||\n            this.isLink(msg) ||\n            this.isDataList(msg) ||\n            this.isYesOrNo(msg) ||\n            this.isToCustomerService(msg) ||\n            this.isToOnlineService(msg) ||\n            this.isToAuthorization(msg) ||\n            this.isToLocation(msg) ||\n            this.isRedirectBot(msg) ||\n            this.isOptions(msg) ||\n            this.isStatus(msg) ||\n            this.isAction(msg) ||\n            this.isGeneralInfo(msg);\n    }\n}\n\n/**\n * 物件相關 utils\n */\nclass ObjUtils {\n\n    removeSpecialCharFromKeys(obj) {\n        for (let prop in obj) {\n            let testReg = /\\./g;\n            if (testReg.test(prop)) {\n                const newProp = prop.replace(testReg, '');\n                let propVal = obj[prop];\n                delete obj[prop];\n                obj[newProp] = propVal;\n            }\n        }\n        return obj;\n    }\n}\n\n/**\n * 訊息相關 utils\n */\nclass MsgUtils {\n    /**\n     * Create output array (index of total)\n     * @params msg msg obj\n     * @params index 1-based\n     * @params total num of outputs\n     */\n    output(msg, index, total) {\n        total = !isNaN(total) && total >= 1 ? total : 1;\n        index = !isNaN(index) && index >= 1 && index <= total ? index : 1;\n        let outputs = new Array(total);\n        outputs.fill(null);\n        outputs[index - 1] = msg;\n        return outputs;\n    }\n}\n\n/**\n * 結束動作選項\n */\nclass QuitOptions {\n    constructor() {\n        this._none = 0;\n        this._quitNone = 'quit_none';\n        this._current = 1;\n        this._quitCurrent = 'quit_current';\n        this._all = 2;\n        this._quitAll = 'quit_all';\n    }\n\n    get none() { return this._none; }\n    get quitNone() { return this._quitNone; }\n    get current() { return this._current; }\n    get quitCurrent() { return this._quitCurrent; }\n    get all() { return this._all; }\n    get quitAll() { return this._quitAll; }\n}\n\nconst quitOptions = new QuitOptions();\n\n\nclass LocalesUtils {\n\n    /**\n     * 取得 locales 對應語句或物件\n     * 若指定 channel 不存在 key 值，判斷 text 或 speech 是否有定義\n     * \n     * @param {Channel} channel Channel object\n     * @param {string | Array} key 以 dot ('.')分隔的字串，表示 property path\n     * @param {Object} replaceParams\n     */\n    get(locales, channel, key, replaceParams) {\n        if (!node._.isNil(locales)) {\n            let result = node._.get(locales[channel], key);\n            // 預設 Channel 與對應的語料\n            if (!result) {\n                if (reqChannels.isText(channel)) {\n                    result = node._.get(locales[reqChannels.text], key);\n                }\n                else if (reqChannels.isSpeech(channel)) {\n                    result = node._.get(locales[reqChannels.speech], key);\n                }\n            }\n            if (!!result && typeof result === 'string') {\n                result = this.replaceTextByParams(result, replaceParams);\n            }\n            return result;\n        }\n    }\n\n    /**\n     * 取代文字中指定參數，文字中須以 {{param}} 表示\n     * @param {*} text \n     * @param {*} params 取代參數值，會包含對應的參數，如 { param: \"new value\" }\n     */\n    replaceTextByParams(text, params) {\n        if (params) {\n            Object.keys(params).forEach(key => {\n                if (typeof params[key] === 'string') {\n                    const regex = new RegExp('{{\\\\s*' + key + '\\\\s*}}', 'gm');\n                    text = text.replace(regex, params[key]);\n                }\n            });\n        }\n        return text;\n    }\n}\n\n/**\n * 提供 First-In-First-Out 操作於指定的 array\n */\nclass QueueUtils {\n    /**\n     * 新增至 Queue 最後\n     */\n    push(queue, data) {\n        if (Array.isArray(queue) && !!data) {\n            if (!node._.isEqual(this.last(queue), data))\n                queue.push(data);\n        }\n    }\n    /**\n     * 從 Queue 最後取出\n     */\n    pop(queue) {\n        if (Array.isArray(queue)) {\n            let item = queue.pop();\n            return typeof item === 'object' ?\n                node._.cloneDeep(item) : item;\n        }\n        return null;\n    }\n    /**\n     * 從 Queue 第一個取出\n     */\n    shift(queue) {\n        if (Array.isArray(queue)) {\n            let item = queue.shift();\n            return typeof item === 'object' ?\n                node._.cloneDeep(item) : item;\n        }\n        return null;\n    }\n    /**\n     * 清除 Queue\n     */\n    clear(queue) {\n        if (Array.isArray(queue)) {\n            queue.splice(0, queue.length);\n        }\n    }\n    /**\n     * 刪除 Queue 中指定項目\n     */\n    remove(queue, index) {\n        if (Array.isArray(queue) &&\n            typeof index === 'number' && index >= 0 &&\n            queue.length && index < queue.length) {\n            queue.splice(index, 1);\n        }\n    }\n    /**\n     * 取得 Queue 的第一個項目\n     */\n    first(queue) {\n        if (Array.isArray(queue) && queue.length > 0) {\n            return typeof queue[0] === 'object' ?\n                Object.assign({}, queue[0]) : queue[0];\n        }\n        return null;\n    }\n    /**\n     * 取得 Queue 的最新的項目\n     */\n    last(queue) {\n        if (Array.isArray(queue) && queue.length > 0) {\n            return typeof queue[queue.length - 1] === 'object' ?\n                Object.assign({}, queue[queue.length - 1]) : queue[queue.length - 1];\n        }\n        return null;\n    }\n\n    /**\n     * 取得指定順位的項目\n     * @param {*} queue array of items as queue\n     * @param {*} index 0-based index\n     */\n    get(queue, index) {\n        if (Array.isArray(queue) &&\n            typeof index === 'number' && index >= 0 &&\n            queue.length && index < queue.length) {\n            return typeof queue[index] === 'object' ?\n                Object.assign({}, queue[index]) : queue[index];\n        }\n    }\n    /**\n     * 從最後一個倒數，取得指定順位的項目\n     * @param {*} queue array of items as queue\n     * @param {*} index 0-based index\n     */\n    getFromLast(queue, index) {\n        if (Array.isArray(queue) &&\n            typeof index === 'number' && index >= 0 &&\n            queue.length && index < queue.length) {\n            return typeof queue[queue.length - index - 1] === 'object' ?\n                Object.assign({}, queue[queue.length - index - 1]) : queue[queue.length - index - 1];\n        }\n    }\n}\n\n/**\n * 字串相關工具\n */\nclass StringUtils {\n    /**\n     * 計算字串最短距離\n     * @param {*} str1 \n     * @param {*} str2 \n     */\n    levenshteinDistance(str1, str2) {\n        str1 = str1 || '';\n        str2 = str2 || '';\n        let vectorPrevious = [];\n        let vectorCurrent = [];\n\n        for (let i = 0; i <= str2.length; ++i) {\n            vectorPrevious[i] = i;\n        }\n        for (let i = 0; i < str1.length; ++i) {\n            vectorCurrent[0] = i + 1;\n\n            for (let j = 0; j < str2.length; ++j) {\n                let deletionCost = vectorPrevious[j + 1] + 1;\n                let insertionCost = vectorCurrent[j] + 1;\n                let substitutionCost = 0;\n\n                if (str1[i] === str2[j]) {\n                    substitutionCost = vectorPrevious[j];\n                } else {\n                    substitutionCost = vectorPrevious[j] + 1;\n                }\n                vectorCurrent[j + 1] = node._.min([\n                    deletionCost,\n                    insertionCost,\n                    substitutionCost\n                ]);\n            }\n\n            vectorPrevious = [].concat(vectorCurrent);\n            vectorCurrent = [];\n        }\n        return vectorPrevious[str2.length];\n    }\n\n    /**\n     * 計算字串最短距離，並轉成相似度(0.0 ~ 1.0)\n     * @param {*} str1 \n     * @param {*} str2 \n     */\n    stringSimilarity(str1, str2) {\n        let distance = this.levenshteinDistance(str1, str2);\n        let maxLen = node._.max([str1.length, str2.length]);\n        return parseFloat((maxLen - distance) / maxLen);\n    }\n}\n\nconst stringUtils = new StringUtils();\n\n/**\n * Setup and update `msg.report_stats` and `msg.systalk.report_stats_session`\n */\nclass ReportUtils {\n\n    /**\n     * Get channel's description, then set to `msg.report_stats_session.channel`\n     * @param {Object} reportStatsSession report stats per session\n     * @param {Channel} channel Channel object\n     */\n    setSessionChannel(reportStatsSession, channel) {\n        if (!node._.isNil(reportStatsSession) && !node._.isNil(channel)) {\n            let stats = reportStatsSession;\n            stats.channel = channel.toString();\n        }\n    }\n\n    /**\n     * \n     * @param {Object} reportStatsSession report stats per session\n     * @param {number} hasInputed `true` if user has inputed\n     */\n    setSessionUserHasInputed(reportStatsSession, hasInputed) {\n        if (!node._.isNil(reportStatsSession)) {\n            reportStatsSession.userHasInputed = hasInputed || false;\n        }\n    }\n\n    /**\n     * Set `msg.systalk.report_stats_session.toCustomerService` to check if this session is transfered to customer service\n     * @param {Object} reportStatsSession report stats per session\n     * @param {boolean} isTransferedToCS is this session transfered to customer service\n     */\n    setSessionToCustomerService(reportStatsSession, isTransferedToCS) {\n        reportStatsSession.toCustomerService = node._.isNil(isTransferedToCS) ? false : isTransferedToCS;\n    }\n\n    /**\n     * 使用者對 Chat Bot 評分\n     * @param {*} reportStatsSession report stats per session\n     * @param {number} score 評分\n     */\n    setSessionScoreForBot(reportStatsSession, score) {\n        if (!node._.isNil(reportStatsSession)) {\n            let _score = parseInt(score);\n            reportStatsSession.botUserScore = !isNaN(_score) && _score >= 0 ? _score : 0;\n        }\n    }\n\n    /**\n     * 使用者對客服人員的評分\n     * @param {Object} reportStatsSession report stats per session\n     * @param {number} score 評分\n     */\n    setSessionScoreForAgent(reportStatsSession, score) {\n        if (!node._.isNil(reportStatsSession)) {\n            let _score = parseInt(score);\n            reportStatsSession.agentUserScore = !isNaN(_score) && _score >= 0 ? _score : 0;\n        }\n    }\n\n    /**\n     * 設定是否為 `undecided`\n     * @param {Object} reportStats report stats per message\n     * @param {string} deciding `Decided`, `Undecided` or `Suggested FAQ`\n     */\n    setDeciding(reportStats, deciding) {\n        if (!node._.isNil(reportStats) && !node._.isNil(deciding)) {\n            reportStats.deciding = deciding;\n        }\n    }\n}\n\nclass LangCtrl {\n    constructor() {\n    }\n\n    /**\n     * Normalize lang code: lower case & separated by `-`\n     * ex: `zh-tw`, `en-us`\n     * @param {string} langCode lang code\n     */\n    normalize(langCode) {\n        if (!!langCode) {\n            return langCode.toLowerCase().trim();\n        }\n    }\n\n    /**\n     * Return the `langCode`, if it's valid in `validLangs`, `defaultLang` otherwise \n     * @param {string[]} validLangs collection of valid lang codes\n     * @param {string} langCode lang code to be determined\n     * @param {string} defaultLang default as `langCode` not in `validLangs`\n     */\n    validOrDefault(validLangs, langCode, defaultLang) {\n        if (Array.isArray(validLangs)) {\n            return validLangs.some(x => this.normalize(x) === this.normalize(langCode)) ?\n                langCode : defaultLang;\n        }\n    }\n}\n\nclass AnalysisCtrl {\n    constructor() { }\n\n    /**\n     * Map NLU result for analysis\n     * \n     * @param {Object} nlu NLU result object\n     * @param {Object} extraConfigs Extra configs for NLU  \n     * ```typescript\n     * {\n     *   isFirstNLU: boolean;\n     *   isSecondNLU: boolean;\n     *   isThirdNLU: boolean;\n     *   threshold: number;\n     * }\n     * ```\n     * @returns NLU Result for analysis\n     * ```typescript\n     * {\n     *   sentence: string;\n     *   intents: IntentResult[];\n     *   entities: EntityResult[];\n     * \n     *   isFirstNLU: boolean;\n     *   isSecondNLU: boolean;\n     *   isThirdNLU: boolean;\n     *   threshold: number;\n     *   secondThreshold: number;\n     *   fallbackScore: number;\n     *   name: string;\n     * }\n     * ```\n     */\n    mapNLUResult(nlu, extraConfigs) {\n        let res = null;\n        if (!node._.isNil(nlu)) {\n            res = {};\n            res.sentence = nlu.sentence;\n            res.intents = [].concat(nlu.intents.map(x => this.mapIntentResult(x)).filter(x => !!x));\n            res.entities = [].concat(nlu.entities.map(y => this.mapEntityResult(y)).filter(y => !!y));\n\n            res.isFirstNLU = !!extraConfigs && extraConfigs.isFirstNLU || false;\n            res.isSecondNLU = !!extraConfigs && extraConfigs.isSecondNLU || false;\n            res.isThirdNLU = !!extraConfigs && extraConfigs.isThirdNLU || false;\n            res.threshold = !!extraConfigs && extraConfigs.threshold || 0;\n            res.secondThreshold = !!extraConfigs && extraConfigs.secondThreshold || 0;\n            res.fallbackScore = !!extraConfigs && extraConfigs.fallbackScore || 0;\n            res.name = !!extraConfigs && extraConfigs.name;\n        }\n        return res;\n    }\n\n    mapIntentResult(intent) {\n        let res = null;\n        if (!node._.isNil(intent)) {\n            res = {};\n            res.intent_id = intent.intent_id;\n            res.intent = intent.intent;\n            res.score = intent.score;\n        }\n        return res;\n    }\n\n    mapEntityResult(entity) {\n        let res = null;\n        if (!node._.isNil(entity)) {\n            res = {};\n            res.entity_id = entity.entity_id;\n            res.info = entity.info;\n            res.text = entity.text;\n            res.key_user_phrase = entity.key_user_phrase;\n            res.entity = entity.entity;\n        }\n        return res;\n    }\n\n    /**\n     * Map FAQ result for analysis\n     *\n     * @param {Object} faq FAQ Result object\n     * @param {Object} extraConfigs Extra configs for FAQ\n     * ```typescript\n     * {\n     *   isFirstFAQ: boolean;\n     *   threshold: number;\n     *   secondThreshold: number;\n     *   name: string;\n     * }\n     * ```\n     */\n    mapFAQResult(faq, extraConfigs) {\n        let res = null;\n        if (!node._.isNil(faq)) {\n            res = {};\n            res.qid = faq.id;\n            res.originalQuestion = faq.orig_question;\n            res.answer = faq.answer;\n\n            if (!node._.isNil(faq.multichannel_answers) && Array.isArray(faq.multichannel_answers)) {\n                res.multichannel_answers = [].concat(faq.multichannel_answers.map(x => this.mapMultiChannelFAQAnswers(x)));\n            }\n            res.categories = [].concat(node._.cloneDeep(faq.categories));\n            res.score = faq.score;\n\n            res.threshold = !!extraConfigs && extraConfigs.threshold || 0;\n            res.secondThreshold = !!extraConfigs && extraConfigs.secondThreshold || 0;\n            res.isFirstFAQ = !!extraConfigs && extraConfigs.isFirstFAQ || false;\n            res.name = !!extraConfigs && extraConfigs.name;\n        }\n        return res;\n    }\n\n    mapMultiChannelFAQAnswers(ans) {\n        let res = null;\n        if (!node._.isNil(ans)) {\n            res = {};\n            res.channel = ans.tab.name;\n            res.answer = ans.answer;\n        }\n        return res;\n    }\n\n    /**\n     * Map recored NLU result for Report used\n     * @param {Object} nluResult \n     */\n    mapNLUResultForReport(nluResult) {\n        if (!!nluResult &&\n            Array.isArray(nluResult.intents) && nluResult.intents.length) {\n\n            let isUndecided = false;\n            let isSuggested = false;\n            if (node._.isNumber(nluResult.threshold)) {\n                isUndecided = isUndecided || nluResult.intents[0].score < nluResult.threshold;\n            }\n            if (node._.isNumber(nluResult.fallbackScore)) {\n                isUndecided = isUndecided || nluResult.intents[0].score === nluResult.fallbackScore;\n            }\n            if (node._.isNumber(nluResult.secondThreshold)) {\n                isSuggested = isSuggested || nluResult.intents[0].score >= nluResult.secondThreshold;\n            }\n\n            return {\n                intent: nluResult.intents[0].intent,\n                undecided: isUndecided,\n                suggested: isSuggested\n            };\n        }\n        return null;\n    }\n\n    /**\n     * Map recored FAQ result for Report used\n     * @param {Object} faqResult \n     * @param {Object} extraConfigs Extra configs for `faqResult`\n     * ```typescript\n     * {\n     *   parentCategory: string;\n     *   childCategory: string;\n     * }\n     * ```\n     */\n    mapFAQResultForReport(faqResult, extraConfigs) {\n        let res = null;\n        if (!!faqResult) {\n            res = {};\n            res.qid = faqResult.qid;\n            res.originalQuestion = faqResult.originalQuestion;\n            res.score = faqResult.score;\n            res.undecided = node._.isNumber(faqResult.threshold) ? faqResult.score < faqResult.threshold : false;\n            res.suggested = node._.isNumber(faqResult.secondThreshold) ? faqResult.score >= faqResult.secondThreshold : false;\n            res.parentCategory = extraConfigs.parentCategory || undefined;\n            res.childCategory = extraConfigs.childCategory || undefined;\n            return res;\n        }\n        return null;\n    }\n\n    /**\n     * Get the NLU result marked as the first NLU\n     * @param {Object[]} list \n     */\n    getFirstNLU(list) {\n        if (Array.isArray(list) && list.length) {\n            return list.find(x => x.isFirstNLU) || null;\n        }\n    }\n\n    /**\n     * Get the NLU result marked as the second NLU\n     * @param {Object[]} list \n     */\n    getSecondNLU(list) {\n        if (Array.isArray(list) && list.length) {\n            return list.find(x => x.isSecondNLU) || null;\n        }\n    }\n\n    /**\n     * Get the NLU result marked as the third NLU\n     * @param {Object[]} list\n     */\n    getThirdNLU(list) {\n        if (Array.isArray(list) && list.length) {\n            return list.find(x => x.isThirdNLU) || null;\n        }\n    }\n\n    /**\n     * Get the FAQ result marked as the first FAQ\n     * @param {Object[]} list \n     */\n    getFirstFAQ(list) {\n        if (Array.isArray(list) && list.length) {\n            return list.find(x => x.isFirstFAQ) || null;\n        }\n    }\n}\n\n/**\n * 提供 `msg.config` 相關 Utility 方法\n */\nclass ConfigCtrl {\n\n    getBotApi(name) {\n        if (name && msg.config.apis.bots) {\n            return msg.config.apis.bots[name];\n        }\n    }\n\n    getNLUApi(name) {\n        if (name && msg.config.apis && msg.config.apis.nlu) {\n            return msg.config.apis.nlu[name];\n        }\n    }\n\n    getFAQApi(name) {\n        if (name && msg.config.apis && msg.config.apis.faq) {\n            return msg.config.apis.faq[name];\n        }\n    }\n\n    getLocalesApi() {\n        if (msg.config.apis && msg.config.apis.locales) {\n            return msg.config.apis.locales;\n        }\n    }\n\n    /**\n     * 取得 NLU 門檻值\n     * @param {string} name 設定的 NLU 名稱\n     */\n    getNLUThreshold(name) {\n        if (name && msg.config.threshold && msg.config.threshold.nlu) {\n            return msg.config.threshold.nlu[name];\n        }\n    }\n\n    /**\n     * 取得 NLU 次門檻值\n     * @param {string} name 設定的 NLU 名稱\n     */\n    getNLUSecondThreshold(name) {\n        return this.getNLUMinorThreshold(name);\n    }\n\n    /**\n     * 取得 NLU 次門檻值\n     * @param {string} name 設定的 NLU 名稱\n     */\n    getNLUMinorThreshold(name) {\n        if (name && msg.config.secondThreshold && msg.config.secondThreshold.nlu) {\n            return msg.config.secondThreshold.nlu[name];\n        }\n    }\n\n    /**\n     * 取得 FAQ 門檻值\n     * @param {string} name 設定 FAQ 的名稱\n     */\n    getFAQThreshold(name) {\n        if (name && msg.config.threshold && msg.config.threshold.faq) {\n            return msg.config.threshold.faq[name];\n        }\n    }\n\n    /**\n     * 取得 FAQ 次門檻值\n     * @param {string} name 設定的 FAQ 名稱\n     */\n    getFAQSecondThreshold(name) {\n        return this.getFAQMinorThreshold(name);\n    }\n\n    /**\n     * 取得 FAQ 次門檻值\n     * @param {string} name 設定的 FAQ 名稱\n     */\n    getFAQMinorThreshold(name) {\n        if (name && msg.config.secondThreshold && msg.config.secondThreshold.faq) {\n            return msg.config.secondThreshold.faq[name];\n        }\n    }\n\n    /**\n     * 取得原點值\n     * @param {string} name 設定 NLU 的名稱\n     */\n    getFallbackScore(name) {\n        return this.getOriginValue(name);\n    }\n\n    /**\n     * 取得原點值\n     * @param {string} name 設定 NLU 的名稱\n     */\n    getOriginValue(name) {\n        if (name && msg.config.nluFallbackScore) {\n            return msg.config.nluFallbackScore[name];\n        }\n    }\n\n    /**\n     * service 是否擁有指定的操作意圖（與項目意圖）\n     * @param { string } serviceName 服務意圖名稱\n     * @param { string } operationName 操作意圖名稱\n     * @param { item } itemName 項目意圖名稱\n     */\n    serviceHasOperationAndItem(serviceName, operationName, itemName) {\n        if (!msg.config.intentsMap || !serviceName) {\n            return false;\n        }\n\n        const operations = msg.config.intentsMap[serviceName] && Object.keys(msg.config.intentsMap[serviceName]) || [];\n        let items = [];\n        operations.forEach(op => {\n            items = items.concat(msg.config.intentsMap[serviceName][op] || []);\n        });\n\n        const hasOperation = operationName && operations.includes(operationName);\n        const hasItem = itemName && items.includes(itemName);\n        const itemsOfOperation = msg.config.intentsMap[serviceName] && Array.isArray(msg.config.intentsMap[serviceName][operationName]) ?\n            msg.config.intentsMap[serviceName][operationName] : [];\n        const hasItemOfOperation = operationName && itemName && hasOperation &&\n            itemsOfOperation.includes(itemName);\n\n        return hasOperation || hasItem || hasItemOfOperation;\n    }\n}\n\n\nmsg.systalk.utils = {\n    ReqMsgTypes: reqMsgTypes,\n    ReplyMsgTypes: replyMsgTypes,\n    ReqSignals: reqSignals,\n    ReqChannels: reqChannels,\n    Channel: Channel,\n    ReplyMsgFactory: new ReplyMsgFactory(),\n    ReqMsgCtrl: new ReqMsgCtrl(),\n    ReplyMsgCtrl: new ReplyMsgCtrl(),\n    ObjUtils: new ObjUtils(),\n    MsgUtils: new MsgUtils(),\n    QuitOptions: quitOptions,\n    LocalesUtils: new LocalesUtils(),\n    ReplyActionTypes: replyActionTypes,\n    QueueUtils: new QueueUtils(),\n    StringUtils: stringUtils,\n    ReportUtils: new ReportUtils(),\n    LangCtrl: new LangCtrl(),\n    AnalysisCtrl: new AnalysisCtrl(),\n    ConfigCtrl: new ConfigCtrl()\n};\n\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "620ebfd4cdc1946f11b6.781ea871e355",
+        "type": "function",
+        "name": "Message Type",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 367.33331298828125,
+        "y": 571,
+        "wires": [
+            [
+                "eef6d0a7ad5441990cd1.0338bc075730"
+            ],
+            [
+                "eef6d0a7ad5441990cd1.0338bc075730"
+            ]
+        ],
+        "func": "const ReqMsgCtrl = msg.systalk.utils.ReqMsgCtrl;\nconst MsgUtils = msg.systalk.utils.MsgUtils;\n\nif (msg.reqMsg.message.type === 'customerMsg') {\n    return MsgUtils.output(msg, 1, 2);\n}\n// reqMsg is text or speech\n// if (ReqMsgCtrl.isText(msg.reqMsg) || ReqMsgCtrl.isSpeech(msg.reqMsg)) {\n//     let content = msg.reqMsg.message.text || msg.reqMsg.message.speech;\n//     msg.text = content;\n//     msg.payload = msg.text;\n//     node.log(123)\n//     return MsgUtils.output(msg, 1, 2);\n// }\n\nreturn MsgUtils.output(msg, 2, 2);",
+        "outputs": 2,
+        "noerr": 0
+    },
+    {
+        "id": "a0d59738d072a900ebac.a1bff10da7d2",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1889.083396911621,
+        "y": 184.50000381469727,
+        "wires": [
+            []
+        ],
+        "func": "if (msg.systalk.needInfo.nextRound) {\n    msg.current = msg.systalk.needInfo.nextRound;\n} else {\n    msg._start_setup = false;\n    msg._start_flow = true;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "e59ca0b6c42bf8b1b85f.fdd6d4ed1116",
+        "type": "enter",
+        "name": "Start",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 187.3333282470703,
+        "y": 457,
+        "wires": [
+            [
+                "5633cdcb67b86dac9e41.a67653462b4e",
+                "65cda47b.fdbf8c"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_start_flow"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "ec65615f5cb0e224fda3.10e08e03379c",
+        "type": "function",
+        "name": "Response",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1033.3333282470703,
+        "y": 71,
+        "wires": [
+            [
+                "ca06e3b035150d9226fd.21c47661080a",
+                "996d2cf62bbb2bf7e724.96552b4b72a5"
+            ]
+        ],
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "ae1dcb3d6c87ef239229.afe04cd75e8a",
+        "type": "enter",
+        "name": "Response",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 175.3333282470703,
+        "y": 1435,
+        "wires": [
+            [
+                "3b905b908e9e05cf4d5a.541e9091a76f"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "nnull",
+                "p": "messages"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "1b4502075cc4e11fdda3.2e6cdb8e0564",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1135.3333282470703,
+        "y": 1435,
+        "wires": [
+            []
+        ],
+        "func": "\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "e1afdf7e5746e2569200.fcce40822060",
+        "type": "enter",
+        "name": "Req User Input",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 185.3333282470703,
+        "y": 1495,
+        "wires": [
+            [
+                "ecedf0a399d18a184a9d.321fb29ff3de"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "false",
+                "p": "_enter_end_dialogue"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "ecedf0a399d18a184a9d.321fb29ff3de",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 395.3333282470703,
+        "y": 1495,
+        "wires": [
+            []
+        ],
+        "func": "msg._enter_end_dialogue = undefined;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": true
+    },
+    {
+        "id": "29b69246c56ded8e2584.012c1b08db03",
+        "type": "enter",
+        "name": "End Dialogue",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 185.3333282470703,
+        "y": 1555,
+        "wires": [
+            [
+                "b63cb8fe06cf4cf06c39.63477eabef17"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_enter_end_dialogue"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "c46f7889f65548386af8.8b3499cbfe55",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 595.3333282470703,
+        "y": 1555,
+        "wires": [
+            []
+        ],
+        "func": "msg._enter_end_dialogue = undefined;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": true,
+        "requestUserInput": false
+    },
+    {
+        "id": "d2e1998f7f8e0a5f1f8e.c64c19b04a69",
+        "type": "comment",
+        "name": "統一處理回應",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "info": "為紀錄額外資訊並清除多餘資訊   \n因此，需於 `Router` output 前處理完成。  \n\n1. 將各子流程 state 節點，皆__不設定__ \n   `Request User Input` 或 `End Dialogue`。\n2. 由於 Router node 會__輪詢__ Enter node，\n   因此可__依序__設定與清理 Response ，\n   並決定是否需結束對話。",
+        "in": [],
+        "out": [],
+        "x": 175.3333282470703,
+        "y": 1395,
+        "wires": []
+    },
+    {
+        "id": "f57cb3e6b833cc3bdcfc.34caadff5e03",
+        "type": "function",
+        "name": "Config",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 573.3333282470703,
+        "y": 191,
+        "wires": [
+            [
+                "337741d9b41afab66427.a326286562a0"
+            ],
+            [
+                "b909234cf28c46a2d9ae.b69f4ff53167"
+            ]
+        ],
+        "func": "msg.config = {\n  botTypes: {\n    current: '<NAME>'\n  },\n  apis: {\n      bots: {},\n      nlu: { // 流程有使用到的 NLU\n        '服務NLU': null // '服務NLU': 'http://api.of.nlu/'\n      },\n      faq: { // 流程有使用到的 FAQ\n        '<NAME>': null // '服務FAQ': 'http://api.of.faq/'\n      },\n      gateWay: {\n          \n      },\n      locales: null // Optional\n  },\n  names: {\n      currentNLU: '服務NLU',\n    //   currentFAQ: '服務FAQ'\n  },\n  /**\n   * 信心值門檻\n   * 需要依實際情形調整\n   */\n  threshold: {\n    nlu: {\n        '<NAME>': 0.7\n    },\n    faq: {\n        '<NAME>': 0.7\n    }\n  },\n  secondThreshold: {\n    nlu: {\n        '<NAME>': 0.6\n    },\n    faq: {\n        '<NAME>': 0.6\n    }\n  },\n  faqMaxResultSize: 10,\n  /**\n   * 設定 NLU 原點值（訓練語料完全沒有符合的字詞，表示機器真的聽不懂）\n   * 每次訓練、修改後，需確認是否變更，並更新\n   */\n  nluFallbackScore: { // 設定各 NLU 原點值\n    '<NAME>': 0\n  },\n  intents: { // 用以辨識的 Intent 名稱\n  },\n  entities: { // 使用到的 Entity 名稱\n  },\n  headers:{\n    Authorization: 'B2CC430497B84006A3D3C53EABB10FDB'\n  },\n  role:'bot',\n  source: 'MEGA'\n};\n\n// 已有從 GateWay 參數 或 debug模式 || msg.debug\nif(msg.systalk.configParameters){\n    return [msg, null];\n}else{\n    //由API取得參數\n    return [null, msg];\n}\n",
+        "outputs": 2,
+        "noerr": 0
+    },
+    {
+        "id": "f202aa936460ad373319.8f2151f4b787",
+        "type": "comment",
+        "name": "取得定義文字／語句",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "info": "將回覆使用到語句，於另外的 web service 中定義  \n依據 `channel` 與 `locales` 區分  \n\n## channel\n\n目前 `channel` 以數字表示。  \n固定 `channel=1` 為預設文字， \n`channel=2` 為預設語音（TTS）。  \n\nchannel 為正整數 \n- `channel & 1 = 1; // bitwise AND`  \n  表示該 channel 支援使用文字回覆\n- `channel & 2 = 2; // bitwise AND`  \n  表示該 channel 支援使用語音回覆\n\n## locales\n\n目前僅提供 `'zh-tw'`\n\n\n\n\n",
+        "in": [],
+        "out": [],
+        "x": 174.3333282470703,
+        "y": 149,
+        "wires": []
+    },
+    {
+        "id": "a872e4a4febd465395a6.c0fa22b8044e",
+        "type": "function",
+        "name": "BotUtils",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1019.3333282470703,
+        "y": 184,
+        "wires": [
+            [
+                "b264762892f584d0a35a.4f80e05c4d97"
+            ]
+        ],
+        "func": "\nclass BotUtils {\n    replaceTextByParams(text, params) {\n        if (params) {\n            Object.keys(params).forEach(key => {\n                if (params[key]) {\n                    const regex = new RegExp('{{\\\\s*' + key + '\\\\s*}}', 'gm');\n                    text.replace(regex, params[key]);\n                }\n            });\n        }\n        return text;\n    }\n}\nmsg.systalk.utils.BotUtils = new BotUtils();\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "7e0bf410445091eb6518.2712acc20d65",
+        "type": "comment",
+        "name": "變更 endpoint",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "info": "",
+        "in": [],
+        "out": [],
+        "x": 155.7239532470703,
+        "y": 23,
+        "wires": []
+    },
+    {
+        "id": "3b905b908e9e05cf4d5a.541e9091a76f",
+        "type": "function",
+        "name": "回應訊息",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 695.3333282470703,
+        "y": 1435,
+        "wires": [
+            [
+                "734773d7007020bb0a1e.f241ce80f173"
+            ]
+        ],
+        "func": "const ReplyMsgFactory = msg.systalk.utils.ReplyMsgFactory;\n\nmsg.payload = {\n    messages: msg.messages || null,\n    error: node._.cloneDeep(msg.error) || null,\n    from: 'bot'\n};\n\n\nif (msg.textComparsion) {\n    msg.payload.textComparsion = msg.textComparsion;\n}\nif (msg.activeModal) {\n    msg.payload.activeModal = msg.activeModal;\n}\n\nif (!node._.isNil(msg.analysis)) {\n    msg.payload.analysis = {\n        nlu: [].concat(msg.analysis.nlu || []),\n        faq: [].concat(msg.analysis.faq || [])\n    };\n}\n\nmsg._enter_end_dialogue = msg._end_dialogue;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "b63cb8fe06cf4cf06c39.63477eabef17",
+        "type": "change",
+        "name": "刪除自訂紀錄資訊",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 415.3333282470703,
+        "y": 1555,
+        "wires": [
+            [
+                "c46f7889f65548386af8.8b3499cbfe55"
+            ]
+        ],
+        "rules": [
+            {
+                "t": "delete",
+                "p": "systalk.pendingBot",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "systalk.config",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "systalk.sessionSalt",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false
+    },
+    {
+        "id": "734773d7007020bb0a1e.f241ce80f173",
+        "type": "function",
+        "name": "清除 msg 下屬性",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 915.3333282470703,
+        "y": 1435,
+        "wires": [
+            [
+                "1b4502075cc4e11fdda3.2e6cdb8e0564"
+            ]
+        ],
+        "func": "// 刪除單一訊息流程狀態\nmsg._start_flow = undefined;\nmsg._get_locales = undefined;\nmsg._end_dialogue = undefined;\nmsg._start_setup = undefined;\n\n// 刪除暫存訊息資訊\nmsg.error = undefined;\nmsg.config = undefined;\nmsg.url = undefined;\nmsg.method = undefined;\nmsg.headers = undefined;\nmsg.botType = undefined;\nmsg.quit = undefined;\n\n// 刪除 NLU 與 FAQ 結果\nmsg.NLU = undefined;\nmsg.FAQ = undefined;\n\n// 刪除自訂紀錄資訊\nmsg.systalk.locales = undefined;\nmsg.systalk.utils = undefined;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "a4941fae7bdb330a9d9e.aecbabc02dac",
+        "type": "function",
+        "name": "Setup analysis",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1696.083396911621,
+        "y": 184.50000381469727,
+        "wires": [
+            [
+                "a0d59738d072a900ebac.a1bff10da7d2"
+            ]
+        ],
+        "func": "msg.analysis = {\n    faq: [],\n    nlu: []\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "18105c06654b09a5525b.a6f613367a82",
+        "type": "enter",
+        "name": "Flow 發生錯誤",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 185.3333282470703,
+        "y": 1295,
+        "wires": [
+            [
+                "aaea6e2b98ffcdccaed0.966039d39901"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "nnull",
+                "p": "error"
+            },
+            {
+                "t": "nnull",
+                "p": "messages"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "aaea6e2b98ffcdccaed0.966039d39901",
+        "type": "state",
+        "name": "Error Response",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 415.3333282470703,
+        "y": 1295,
+        "wires": [
+            []
+        ],
+        "func": "const ReplyMsgFactory = msg.systalk.utils.ReplyMsgFactory;\n\nif (node._.isString(msg.error)) {\n    msg.messages.push(ReplyMsgFactory.createText(msg.error));\n}\nelse if (node._.isObject(msg.error)) {\n    msg.messages.push(ReplyMsgFactory.createText(JSON.stringify(msg.error)));\n}\n\n\nmsg._end_dialogue = false;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "0c86fb2ca5aec9d4d112.c87ebc82c85c",
+        "type": "comment",
+        "name": "!!注意!! Error Handling",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "info": "在 Flow 中 function / state node 發生 Exception 會以該節點收到的 msg 再帶出  \n因此 Catch node 雖然在 Exception 發生時也會被觸發，但 __原有流程如無特別處理__ 仍會繼續\n\nException 僅使用 debug 紀錄訊息",
+        "in": [],
+        "out": [],
+        "x": 215.3333282470703,
+        "y": 1255,
+        "wires": []
+    },
+    {
+        "id": "c347f9dfa2166b1cb3ae.720b2e36dfa4",
+        "type": "comment",
+        "name": "!!注意!! 空訊息處理",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "info": "當流程發生錯誤時，`msg.messages` 容易為空  \n導致無合法的訊息可供 client 顯示  \n\n因此，需要針對 **空訊息** 處理  \n定義一個表示無任何回應的訊息顯示\n\n如：`{ type: 1, text: '<NO_REPLY>' }`",
+        "in": [],
+        "out": [],
+        "x": 695.3333282470703,
+        "y": 1395,
+        "wires": []
+    },
+    {
+        "id": "bb6ef6a8eeeb78b28287.f20ced728b19",
+        "type": "catch",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 175.3333282470703,
+        "y": 1335,
+        "wires": [
+            [
+                "dbe3aaa5af19f2bca238.a5f34ebac7e1"
+            ]
+        ],
+        "scope": null
+    },
+    {
+        "id": "dbe3aaa5af19f2bca238.a5f34ebac7e1",
+        "type": "debug",
+        "name": "Exception",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "active": true,
+        "console": "false",
+        "complete": "error",
+        "x": 395.3333282470703,
+        "y": 1335,
+        "wires": []
+    },
+    {
+        "id": "b909234cf28c46a2d9ae.b69f4ff53167",
+        "type": "function",
+        "name": "取得 config 參數",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 585.3333282470703,
+        "y": 244,
+        "wires": [
+            [
+                "8281aacb8123ed91fa57.1748a18a563c"
+            ]
+        ],
+        "func": "msg.headers = msg.config.headers;\nmsg.method = 'POST';\nmsg.url = msg.reqMsg.getParametersUrl;\n\nmsg.payload = {\n    categoryKey: \"ChatFlow\",\n    chatwebId: msg.reqMsg.message.chatwebId,\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "8281aacb8123ed91fa57.1748a18a563c",
+        "type": "http request",
+        "name": "gateWay call chatManage",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 613.3333282470703,
+        "y": 306,
+        "wires": [
+            [
+                "b8f8fbe5dd27ca0a3912.af67d9d41d99"
+            ]
+        ],
+        "method": "use",
+        "ret": "obj",
+        "url": "",
+        "credentials": {
+            "user": "",
+            "password": ""
+        }
+    },
+    {
+        "id": "b8f8fbe5dd27ca0a3912.af67d9d41d99",
+        "type": "function",
+        "name": "Get parameters",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 576.3333282470703,
+        "y": 365,
+        "wires": [
+            [
+                "337741d9b41afab66427.a326286562a0"
+            ]
+        ],
+        "func": "msg.headers = undefined;\nmsg.method = undefined;\nmsg.url = undefined;\n\nif(msg.payload.code === 0){//查詢成功\n    const configParameters = msg.payload.data;\n    // 存systalk\n    msg.systalk.configParameters = configParameters;\n}else{\n    node.log(\"取得參數失敗！\");\n    node.log(msg.payload);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "337741d9b41afab66427.a326286562a0",
+        "type": "function",
+        "name": "Set parameters",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 830.3333282470703,
+        "y": 184,
+        "wires": [
+            [
+                "a872e4a4febd465395a6.c0fa22b8044e"
+            ]
+        ],
+        "func": "if(msg.systalk.configParameters){//有參數\n    //設定參數...\n    const configParameters = msg.systalk.configParameters;\n    \n    //BOT\n    \n    //GATEWAY\n    msg.config.apis.gateWay.scene = configParameters.gw_addr+':'+configParameters.gw_port+'/card/scene';\n    msg.config.apis.gateWay.faqAnswer = configParameters.gw_addr+':'+configParameters.gw_port+'/card/faqAnswer';\n    msg.config.apis.gateWay.text = configParameters.gw_addr+':'+configParameters.gw_port+'/card/text';\n    msg.config.apis.gateWay.sendOtp = configParameters.gw_addr+':'+configParameters.gw_port+'/megaBank/otp/sendOtp';\n    \n    // textComparsion\n    // msg.config.text.yes = configParameters.text_yes.split(','); // 字串比對 正確\n    // msg.config.text.no = configParameters.text_no.split(',');   // 字串比對 錯誤\n    \n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "b264762892f584d0a35a.4f80e05c4d97",
+        "type": "function",
+        "name": "ChatWeb Utils  Req / Res",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1250.3333282470703,
+        "y": 184,
+        "wires": [
+            [
+                "e08e1faee76a1b6eb730.7a7bef40922f"
+            ]
+        ],
+        "func": "// Flow create requestBody to gateWay\nclass ChatWebRequest {\n    constructor () {\n        this.channel = msg.reqMsg.message.channel,\n        this.source = msg.config.source,\n        this.role = msg.config.role,\n        this.content = [];\n    }\n    \n    get getMsgObj () {\n        return this;\n    }\n    addScene (code) {\n        this.content.push({scene: code});\n    }\n    addTextCode (obj) {\n        if (typeof obj === 'string') {\n            this.content.push({textCode: obj});\n        } else if (typeof obj === 'object') {\n            this.content.push({textCode: obj.textCode, dictionary: obj.dictionary});\n        }\n    }\n}\n\n// Flow response to Vue\nclass ChatWebResponse {\n    constructor () {\n        this.channel = msg.reqMsg.message.channel,\n        this.source = msg.config.source,\n        this.role = msg.config.role,\n        this.content = [];\n    }\n    \n    get getMsgObj () {\n        const date = new Date();\n        return {\n            code: 0,\n            msg: '成功',\n            data: {\n                channel: this.channel,\n                source: this.source,\n                role: this.role,\n                content: this.content,\n                showtime: node.moment(date).tz(\"Asia/Taipei\").format(\"YYYY/MM/DD HH:mm:ss\")\n            }\n        }\n    }\n    addText (str) {\n        this.content.push({type:1, text: str});\n    }\n    addQuicklyReply (obj) {\n        this.content.push ({ \n            type:7,\n            linkListType:\"select-tag\" + obj.length.toString(),\n            linkList:obj\n        })\n    }\n    // obj ex:\n    // [\n    //     { \n    //         action:1,\n    //         text:\"網路/行動銀行驗證\",\n    //         data:\"網路/行動銀行驗證\"\n    //     },\n    //     { \n    //         action:1,\n    //         text:\"信用卡資料(限正卡)\",\n    //         data:\"信用卡資料(限正卡)\"\n    //     }\n    // ]\n    \n    \n    addModal (name) {\n        this.content.push({\n            type: 8,\n            widget: name\n        })\n    }\n    addGuessYouWant (cards, width = \"segment secard\") {\n        let arr = [];\n        cards.forEach(card=>{\n            arr.push({\n                css: {\n                    width: width,\n                    linkCss: \"btn-bottom\"\n                },\n                linkList: card.btnList\n            })    \n        })\n        this.content.push({\n            type: 2,\n            cards: arr\n        })\n    }\n}\n\nmsg.systalk.utils.ChatWebRequest = new ChatWebRequest();\nmsg.systalk.utils.ChatWebResponse = new ChatWebResponse();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "c1d0ccb62e464884b3bc.13ca2a8af9d6",
+        "type": "enter",
+        "name": "gateWay",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 171.3333282470703,
+        "y": 1177,
+        "wires": [
+            [
+                "75d256ca686793ffe3e3.543c1ade4f3c"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_gateWay"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "75d256ca686793ffe3e3.543c1ade4f3c",
+        "type": "function",
+        "name": "組 Request Parameters",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 436.3333282470703,
+        "y": 1176,
+        "wires": [
+            [
+                "870dbfe6588d9fcde84a.071d883c4d56"
+            ]
+        ],
+        "func": "msg.headers = msg.config.headers;\nmsg.method = 'POST';\nmsg.payload = msg.reqBody;\nmsg.payload.chatwebId = msg.reqMsg.message.chatwebId;\n// if (!msg.url) {\n//     msg.error = 'Missing Request URL';\n//     return [null, msg];\n// }\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "870dbfe6588d9fcde84a.071d883c4d56",
+        "type": "http request",
+        "name": "gateWay",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 691.3333282470703,
+        "y": 1175,
+        "wires": [
+            [
+                "50606294897b4860948a.38431f8f5313"
+            ]
+        ],
+        "method": "use",
+        "ret": "obj",
+        "url": "",
+        "credentials": {
+            "user": "",
+            "password": ""
+        }
+    },
+    {
+        "id": "50606294897b4860948a.38431f8f5313",
+        "type": "function",
+        "name": "處理資料",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 890.3333282470703,
+        "y": 1175,
+        "wires": [
+            [
+                "2688a2637770b795bf2b.480f5885a80f"
+            ],
+            [
+                "ef2b25be4d6da456d94f.6418b214b205"
+            ]
+        ],
+        "func": "const MsgUtils = msg.systalk.utils.MsgUtils;\nconst numOfOuts = 2;\n\n// 刪除條件\nmsg._gateWay = undefined;\n\n// 刪除 http 資料\nmsg.headers = undefined;\nmsg.method = undefined;\nmsg.url = undefined;\n\n// Gateway 發生錯誤\nif (msg.payload.code !== 0) {\n    return MsgUtils.output(msg, 2, numOfOuts);\n}\n\n// 回覆訊息\nmsg.messages = msg.payload;\n\nreturn MsgUtils.output(msg, 1, numOfOuts);\n",
+        "outputs": 2,
+        "noerr": 0
+    },
+    {
+        "id": "2688a2637770b795bf2b.480f5885a80f",
+        "type": "state",
+        "name": "回覆訊息",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1104.3333282470703,
+        "y": 1140,
+        "wires": [
+            []
+        ],
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "ef2b25be4d6da456d94f.6418b214b205",
+        "type": "state",
+        "name": "Gateway 發生錯誤",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1125.3333282470703,
+        "y": 1207,
+        "wires": [
+            []
+        ],
+        "func": "const BotUtils = msg.systalk.utils.BotUtils;\nconst ChatWebResponse = msg.systalk.utils.ChatWebResponse;\n// 結束對話\nmsg._end_dialogue = true;\n\nChatWebResponse.addText(\"現在長庚阿波調整中，造成不便請見諒\")\n\nmsg.messages = ChatWebResponse.getMsgObj;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "c21cb55345c40ac7ebdc.1cb8c7ebe65a",
+        "type": "debug",
+        "name": "INPUT",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 389.3333282470703,
+        "y": 36,
+        "wires": []
+    },
+    {
+        "id": "5633cdcb67b86dac9e41.a67653462b4e",
+        "type": "debug",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "active": true,
+        "console": "false",
+        "complete": "reqMsg",
+        "x": 376.33331298828125,
+        "y": 409,
+        "wires": []
+    },
+    {
+        "id": "eef6d0a7ad5441990cd1.0338bc075730",
+        "type": "function",
+        "name": "擷取實體",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 559.2857208251953,
+        "y": 570.8571357727051,
+        "wires": [
+            [
+                "aae60b9e5921ffbb36c0.422c41a159f3"
+            ]
+        ],
+        "func": "const botEntities = msg.config.entities;\nmsg.entities = msg.reqMsg.entities;\n\nnode.log(\"botEntities\", JSON.stringify(botEntities)); //mycards(?): \"我的卡片\"\nnode.log(\"msg.entities\", JSON.stringify(msg.entities)); //點及其他牌卡項目->我的卡片實體\n\nnode.log(msg.entities);\n// 將擷取到的實體抓取出來\nif(msg.entities.length !== undefined){\n    msg.entities.forEach(item=>{\n        for (let prop in botEntities){\n            if (botEntities[prop] === item.entity) {\n                node.log('prop '+botEntities[prop])\n                msg.systalk.needInfo[prop] = item.key_user_phrase;\n            }\n        }\n    })\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "aae60b9e5921ffbb36c0.422c41a159f3",
+        "type": "function",
+        "name": "進入核身流程",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 747,
+        "y": 570,
+        "wires": [
+            [
+                "ebdfa4759f6f98aa1085.6f545f249ddc"
+            ],
+            [
+                "c1779994e3494a2c9899.c1407a19d421"
+            ]
+        ],
+        "func": "let isValidId = msg.reqMsg.stored.userData.isValidId;\n\nif (!!isValidId){\n    return [msg, null];\n} \nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0
+    },
+    {
+        "id": "2328b1608eb638aca262.8e562cbb32b8",
+        "type": "state",
+        "name": "已登入",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1011,
+        "y": 484,
+        "wires": [
+            []
+        ],
+        "func": "// update msg.systalk:\n\n    // msg.systalk.??? = ???;\n\n    // update msg.systalk._responses (a list):\n    // members of msg.systalk._responses will be\n    // randomly selected and concatenated to\n    // msg.payload by the Routher.\n    // msg.systalk._responses = [???];\n\n    // if you need extra debug function,\n    // node.log() outputs to the debug panel.\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "c1779994e3494a2c9899.c1407a19d421",
+        "type": "state",
+        "name": "未登入",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 999,
+        "y": 603,
+        "wires": [
+            []
+        ],
+        "func": "// 若流程中需要使用者核身，則 secondBot 需在 response 中多帶 核身參數 與 流程代號，並統一由 firstBot 進入核身流程驗證使用者\nmsg.payload.authenticateUser = true;\nmsg.payload.flow = '10'; //我的卡片代碼為10\n\n// msg.systalk.needInfo.msg = msg.reqMsg.messages.msg; //使用者訊息\n\n// const ChatWebResponse = msg.systalk.utils.ChatWebResponse;\n// ChatWebResponse.addModal('login');\n// msg.activeModal = 'login';\n// msg.messages = ChatWebResponse.getMsgObj;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "ebdfa4759f6f98aa1085.6f545f249ddc",
+        "type": "function",
+        "name": "已登入，組request body",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1033,
+        "y": 546,
+        "wires": [
+            [
+                "0a09b2a3cafe147387e7.bcb21a5b1595"
+            ]
+        ],
+        "func": "msg.headers = msg.config.headers;\nmsg.method = 'POST';\nmsg.url = msg.config.apis.gateWay.deductInsurance;\nmsg.payload = {\n    chatwebId: msg.reqMsg.messages.chatwebId,\n    memberId: msg.reqMsg.stored.userData.id,\n    flowCard: {\n        channel: \"ChatWeb\",\n        source: \"nanshan\",\n        role: \"bot\",\n        content: []\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "0a09b2a3cafe147387e7.bcb21a5b1595",
+        "type": "http request",
+        "name": "有效信用卡清單API",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1259,
+        "y": 546,
+        "wires": [
+            [
+                "00a8d4138d4a48bcb616.c3dc5a9ba737"
+            ]
+        ],
+        "method": "use",
+        "ret": "obj",
+        "url": "",
+        "credentials": {
+            "user": "",
+            "password": ""
+        }
+    },
+    {
+        "id": "0507da6509c067ad74f6.baa8409bfab6",
+        "type": "http request",
+        "name": "帳單資訊API",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1688,
+        "y": 517,
+        "wires": [
+            [
+                "cc0903bbee78a38ad537.ee68931101c5"
+            ]
+        ],
+        "method": "use",
+        "ret": "obj",
+        "url": "",
+        "credentials": {
+            "user": "",
+            "password": ""
+        }
+    },
+    {
+        "id": "00a8d4138d4a48bcb616.c3dc5a9ba737",
+        "type": "function",
+        "name": "判斷是否有效信用卡",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1477.5,
+        "y": 517,
+        "wires": [
+            [
+                "0507da6509c067ad74f6.baa8409bfab6"
+            ]
+        ],
+        "func": "// if you need extra debug function,\n// node.log() outputs to the debug panel.\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "cc0903bbee78a38ad537.ee68931101c5",
+        "type": "function",
+        "name": "解析回傳結果",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1878.5,
+        "y": 517,
+        "wires": [
+            [
+                "0dce58e60bbf5e75e806.93f126d8aff3"
+            ],
+            [
+                "515c4d9aef4303b55906.54091716e204"
+            ]
+        ],
+        "func": "// if you need extra debug function,\n// node.log() outputs to the debug panel.\nreturn msg;",
+        "outputs": 2,
+        "noerr": 0
+    },
+    {
+        "id": "0dce58e60bbf5e75e806.93f126d8aff3",
+        "type": "state",
+        "name": "成功",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2057.5,
+        "y": 501,
+        "wires": [
+            []
+        ],
+        "func": "// 顯示使用者所屬卡片_警語&總覽牌卡&推薦服務\n\n    // msg.systalk.??? = ???;\n\n    // update msg.systalk._responses (a list):\n    // members of msg.systalk._responses will be\n    // randomly selected and concatenated to\n    // msg.payload by the Routher.\n    // msg.systalk._responses = [???];\n\n    // if you need extra debug function,\n    // node.log() outputs to the debug panel.\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "cb1d0857a4b78409674b.0748cb03eadf",
+        "type": "enter",
+        "name": "聽不懂",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1605.5,
+        "y": 336,
+        "wires": [
+            [
+                "810bb181805fb8566489.0d538b8e9019"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_dont_understand"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "810bb181805fb8566489.0d538b8e9019",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1778.5,
+        "y": 336,
+        "wires": [
+            []
+        ],
+        "func": "msg._dont_understand = undefined;\nmsg.systalk.needInfo.toAgent = msg.systalk.needInfo.toAgent + 1;\nmsg.messages = msg.systalk.needInfo.lastPayload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "52fc4ac2a14a3343055d.65d4e53a4671",
+        "type": "enter",
+        "name": "轉真人",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1608.5,
+        "y": 393,
+        "wires": [
+            [
+                "f7f337ab22af89ef42be.edb9e37b55b2"
+            ]
+        ],
+        "outputs": 1,
+        "rules": [
+            {
+                "t": "true",
+                "p": "_toAgent"
+            }
+        ],
+        "directlink": false,
+        "initialstate": false,
+        "fallback": false
+    },
+    {
+        "id": "f7f337ab22af89ef42be.edb9e37b55b2",
+        "type": "state",
+        "name": "state",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 1782.5,
+        "y": 393,
+        "wires": [
+            []
+        ],
+        "func": "msg._toAgnet = undefined;\nmsg.payload.unknowUserMessage = true; //流程聽不懂三次\nmsg.payload.toAgent = true; //若流程需要轉真人服務時，secondBot 需在 response 中多帶轉真人參數給firstBot\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "515c4d9aef4303b55906.54091716e204",
+        "type": "function",
+        "name": "失敗,是否轉真人",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2083,
+        "y": 559,
+        "wires": [
+            [
+                "6b1261fcd2d60b47c45f.5c0e70b1d0b2"
+            ],
+            [
+                "033c4ce34a9e2202e824.1d8696d4d929"
+            ],
+            [
+                "bb1b683c7b716624cf44.559bed312e37"
+            ]
+        ],
+        "func": "// 說明系統維護中並詢問是否轉真人\nconst ReqMsgCtrl = msg.systalk.utils.ReqMsgCtrl;\nconst MsgUtils = msg.systalk.utils.MsgUtils;\nconst numOfOuts = 3;\n\nif(msg.reqMsg.textComparsion.yes.matched){\n    return MsgUtils.output(msg, 1, numOfOuts);\n} else if(msg.reqMsg.textComparsion.no.matched){\n    return MsgUtils.output(msg, 2, numOfOuts);\n} else {\n     return MsgUtils.output(msg, 3, numOfOuts); //聽不懂\n}\n\nreturn MsgUtils.output(msg, 3, numOfOuts);",
+        "outputs": 3,
+        "noerr": 0
+    },
+    {
+        "id": "6b1261fcd2d60b47c45f.5c0e70b1d0b2",
+        "type": "state",
+        "name": "是,轉真人",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2263,
+        "y": 514,
+        "wires": [
+            []
+        ],
+        "func": "const ChatWebRequest = msg.systalk.utils.ChatWebRequest;\nChatWebRequest.addTextCode('CM005'); //請稍等，將為您轉接小咩學姊~\nmsg.reqBody = ChatWebRequest.getMsgObj;\nmsg.url = msg.config.apis.gateWay.text;\nmsg._gateWay = true;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "033c4ce34a9e2202e824.1d8696d4d929",
+        "type": "state",
+        "name": "否,結束",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2264,
+        "y": 559,
+        "wires": [
+            []
+        ],
+        "func": "const ChatWebRequest = msg.systalk.utils.ChatWebRequest;\nChatWebRequest.addTextCode('CM004'); //謝謝，小咩很高興為您服務，請問還需要什麼服務呢？\nmsg.reqBody = ChatWebRequest.getMsgObj;\nmsg.url = msg.config.apis.gateWay.text;\nmsg._gateWay = true;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "bb1b683c7b716624cf44.559bed312e37",
+        "type": "state",
+        "name": "聽不懂",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2269,
+        "y": 603,
+        "wires": [
+            []
+        ],
+        "func": "// msg.textComparsion= {\n//     yes: {\n//         values: msg.config.text_yes,\n//         threshold: 0.6\n//     },\n//     no: {\n//         values: msg.config.text_no,\n//         threshold: 0.6\n//     }\n// }\nif(msg.systalk.needInfo.toAgent === 2){\n    msg._toAgent = true;\n}else{\n    msg._dont_understand = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    },
+    {
+        "id": "eb433a544823a1e4a70a.6f989a97bc5c",
+        "type": "function",
+        "name": "",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 2062,
+        "y": 419,
+        "wires": [
+            []
+        ],
+        "func": "const ChatWebRequest = msg.systalk.utils.ChatWebRequest;\nif (!msg.systalk.needInfo.phoneNumber) {\n    ChatWebRequest.addTextCode('OC001');\n    msg.reqBody = ChatWebRequest.getMsgObj;\n    msg.url = msg.config.apis.gateWay.text;\n    msg._gateWay = true;\n    return [msg, null];\n}\n\nreturn [null, msg];",
+        "outputs": 1,
+        "noerr": 0
+    },
+    {
+        "id": "65cda47b.fdbf8c",
+        "type": "state",
+        "name": "導向官網",
+        "z": "2f03243d26f0acd87d4d.6c71507ccaf3",
+        "in": [],
+        "out": [],
+        "x": 381,
+        "y": 458,
+        "wires": [
+            []
+        ],
+        "func": "const ChatWebResponse = msg.systalk.utils.ChatWebResponse;\nconst ChatWebRequest = msg.systalk.utils.ChatWebRequest;\nChatWebRequest.addTextCode('FR001'); // 台詞直接帶入官網網址\nmsg._gateWay = true;\nmsg.reqBody = ChatWebRequest.getMsgObj;\nmsg.url = msg.config.apis.gateWay.scene;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "response": "",
+        "finalstate": false,
+        "requestUserInput": false
+    }
+]
